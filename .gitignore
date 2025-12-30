@@ -37,3 +37,17 @@ env/
 *.safetensors
 *.pt
 *.pth
+
+# Frontend (Vite / Node) artifacts
+web/frontend/node_modules/
+web/frontend/dist/
+web/frontend/build/
+web/frontend/.vite/
+web/frontend/.parcel-cache/
+web/frontend/.turbo/
+web/frontend/.cache/
+web/frontend/.env.local
+web/frontend/.env.*.local
+web/frontend/npm-debug.log*
+web/frontend/yarn-error.log*
+web/frontend/.eslintcache

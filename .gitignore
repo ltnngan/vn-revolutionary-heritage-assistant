@@ -1,2 +1,39 @@
 vqa_model/
 images/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# SQLite and DB files
+*.sqlite3
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Model artifacts
+*.safetensors
+*.pt
+*.pth
